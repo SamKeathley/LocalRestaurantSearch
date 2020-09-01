@@ -26,6 +26,7 @@ export default function Register() {
 
     return (
         <div className="container">
+            <div className="plus"></div>
             <form className="registration">
                 <input
                     className="rname"

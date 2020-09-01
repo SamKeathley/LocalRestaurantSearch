@@ -4,12 +4,49 @@
     height: 900px;
 }
 
+.plus {
+    border-radius: 50%;
+    border: 5px solid #FD835C;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    position: relative;
+    left: 305px;
+    top: 96px;
+  }
+
+  .plus::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #FD835C;
+    width: 7px;
+    margin-left: -5px;
+    left: 50%;
+    top: 5px;
+    bottom: 5px;
+    z-index: 9;
+  }
+
+  .plus::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: #FD835C;
+    height: 7px;
+    margin-top: -5px;
+    top: 50%;
+    left: 5px;
+    right: 5px;
+    z-index: 9;
+  }
+
 .registration {
     position: absolute;
     width: 755px;
     height: 430px;
     left: 305px;
-    top: 15%;
+    top: 35%;
     border: 5px solid #FD835C;
     box-sizing: border-box;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);

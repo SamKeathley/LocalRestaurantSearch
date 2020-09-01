@@ -1,5 +1,11 @@
 * {
   text-align: center;
   background-color: #FAFAFA;
-  font-family: 'Roboto', sans-serif;}
+  font-family: 'Roboto', sans-serif;
+}
 
+div {
+  background-image: url("./assets/background.png");
+  background-size: inherit;
+  background-repeat: no-repeat;
+}
