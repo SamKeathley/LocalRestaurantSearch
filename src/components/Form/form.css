@@ -1,0 +1,50 @@
+.container {
+    display: inline-block;
+    width: 50%;
+}
+
+.registration {
+    display: flex;
+    border: 5px solid #FD835C;
+    border-radius: 20px;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+}
+
+input {
+    font-size: 15px;
+    height: 10px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.rname {
+    margin-top: 50px;
+}
+
+.ftype {
+    margin-bottom: 40px;
+}
+
+.submit {
+    outline: 0;
+    background-color: #FD835C;
+    border: 0;
+    padding: 10px 15px;
+    color: #ffffff; 
+    font-size: 15px;
+    font-weight: 700;
+    width: 15%;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    left: 150px;
+    height: 40px;
+    text-align: center;
+}

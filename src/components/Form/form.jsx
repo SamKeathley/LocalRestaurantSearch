@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import './form.css';
 
-export default function Form() {
+export default function Register() {
     const [contact, setContact] = useState({
         rname: "",
         address: "",
@@ -25,8 +26,9 @@ export default function Form() {
 
     return (
         <div className="container">
-            <form>
+            <form className="registration">
                 <input
+                    className="rname"
                     name="rname"
                     onChange={handleChange}
                     value={contact.rname}
@@ -57,12 +59,13 @@ export default function Form() {
                     placeholder="Phone Number"
                 />
                 <input
+                    className="ftype"
                     name="ftype"
                     onChange={handleChange}
                     value={contact.ftype}
                     placeholder="Type of Cuisine"
                 />
-                <button>Submit</button>
+                <input className="submit" type="submit" value="Submit" />
             </form>
         </div>
 
