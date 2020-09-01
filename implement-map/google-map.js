@@ -17,7 +17,7 @@ var givenCenter = {lat: 37.3382, lng: -121.8863};
   });
 
   for (i = 0; i < latArray.length; i++) {
-  placeMarker(latArray[i], longArray[i], map, contentString[i]);
+   placeMarker(latArray[i], longArray[i], map, contentString[i]);
   }
 
 }
