@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/home';
+import Form from './components/Form/form';
+import { Route } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/form" component={Form} />
     </div>
   );
 }
