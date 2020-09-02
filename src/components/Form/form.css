@@ -2,13 +2,14 @@
     position: relative;
     max-width: 1440px;
     height: 900px;
+    text-align: center;
 }
 
 .plus {
     border-radius: 50%;
     border: 5px solid #FD835C;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #ffffff;
     position: relative;
     left: 305px;
@@ -20,7 +21,7 @@
     position: absolute;
     display: block;
     background-color: #FD835C;
-    width: 7px;
+    width: 5px;
     margin-left: -5px;
     left: 50%;
     top: 5px;
@@ -33,7 +34,7 @@
     position: absolute;
     display: block;
     background-color: #FD835C;
-    height: 7px;
+    height: 5px;
     margin-top: -5px;
     top: 50%;
     left: 5px;
@@ -41,16 +42,26 @@
     z-index: 9;
   }
 
+.formContainer {
+    background-image: url('../../assets/background.png');
+    height: 100%;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #FD835C;
+}
+
 .registration {
     position: absolute;
     width: 755px;
     height: 430px;
     left: 305px;
-    top: 35%;
+    top: 27%;
     border: 5px solid #FD835C;
     box-sizing: border-box;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
+    background-color: #ffffff;
 }
 
 input {

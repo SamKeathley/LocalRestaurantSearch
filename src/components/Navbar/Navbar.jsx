@@ -1,6 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
+import { Link } from 'react-router-dom';
 
 
 const Nav = styled.nav`
@@ -14,7 +15,7 @@ const Nav = styled.nav`
 const Navbar = () => {
     return (
         <Nav>
-            <div>reStore</div>
+            <Link to="/"><img src="./assets/logo.png" alt="reStore" /></Link>
             <Burger />
         </Nav>
     );

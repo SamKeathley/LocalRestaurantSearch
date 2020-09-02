@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Ul = styled.ul`
   list-style: none;
@@ -32,7 +33,7 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Join in as a restaurant owner</li>
+      <Link to="/form"><li>Join in as a restaurant owner</li></Link>
       <li>Saved</li>
       <li>Help</li>
       <li>About us</li>

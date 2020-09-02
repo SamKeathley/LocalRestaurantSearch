@@ -3,9 +3,9 @@
     flex-direction: 'column'; */
     background-image: url('../../assets/background.png');
     height: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     color: #FD835C;
     /* align-items: center;
     justify-content: center; */
@@ -80,6 +80,15 @@
   font-size: 18px;;
   font-weight: 750;
 }
+
+a:visited {
+  color: #FD835C;
+}
+
+a:hover {
+  color: #dc714d;
+}
+
 .arrow {
   height: 5%;
   width: 5%;
