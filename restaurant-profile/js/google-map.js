@@ -1,0 +1,120 @@
+// Initialize and add the map
+function initMap() {
+// The location of Uluru
+var shereen = {lat: 37.306, lng: -121.951};
+var kathleen = {lat: 37.256, lng: -122.037};
+var anne = {lat: 37.549, lng: -121.982};
+var williams = {lat: 37.377, lng: -121.926};
+var rayna = {lat: 37.263, lng: -122.038};
+
+var icons = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+
+// The map, centered at Uluru
+var map = new google.maps.Map(
+document.getElementById('map'), {zoom: 9.65, center: shereen});
+// The marker, positioned at Uluru
+var contentString1 = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Kathleen Russ: MA</h1>'+
+'<div id="bodyContent">'+
+'<h6>Type:</h6> <p>Psychotherapist</p>' +
+'<h6>Availability:</h6> <p> 6/20/2020-6/30/2020, 10:00am - 6pm</p>' +
+'<h6>Bio Message:</h6> <p> I specialize in Jungian Psychotherapy, Aging & Caregiving, and Expressive Arts in my Therapy Treatments</p>' +
+'</div>'+
+'</div>';
+
+var marker1 = new google.maps.Marker({position: kathleen, map: map});
+
+
+
+marker1.addListener('click', function() {
+infowindow1.open(map, marker1);
+});
+var contentString2 = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Shereen Mohsen, Psy.D.</h1>'+
+'<div id="bodyContent">'+
+'<h6>Type:</h6> <p> Licensed Clinical Psychologist</p>' +
+'<h6>Availability:</h6> <p> 6/30/2020-7/7/2020, 9:00am - 5:30pm</p>' +
+'<h6>Bio Message:</h6> <p> I work on Individual Counseling, Marriage and Family, Consultation, Health and Wellness, Crisis Intervention / Trauma, and Education / Schoolings</p>' +
+'</div>'+
+'</div>';
+
+var infowindow2 = new google.maps.InfoWindow({
+content: contentString2
+});
+
+
+
+marker2.addListener('click', function() {
+infowindow2.open(map, marker2);
+});
+var contentString3 = '<div id="content">'+
+  '<div id="siteNotice">'+
+  '</div>'+
+  '<h1 id="firstHeading" class="firstHeading">Anne Bisek, Psy.D.</h1>'+
+  '<div id="bodyContent">'+
+  '<h6>Type:</h6> <p> Licensed Clinical Psychologist</p>' +
+  '<h6>Availability:</h6> <p> 6/25/2020-7/10/2020, 9:00am - 5:30pm</p>' +
+  '<h6>Bio Message:</h6> <p> I work primarily with first responders, communications, firefighters, pre-hospital care personnel, law enforcement and military veterans.</p>' +
+  '</div>'+
+  '</div>';
+
+  var infowindow3 = new google.maps.InfoWindow({
+    content: contentString3
+  });
+
+
+
+  marker3.addListener('click', function() {
+    infowindow3.open(map, marker3);
+  });
+
+
+  var contentString4 = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Martin H. Williams, Ph.D.</h1>'+
+      '<div id="bodyContent">'+
+      '<h6>Type:</h6> <p> Licensed Clinical Psychologist, American Psychological Association</p>' +
+      '<h6>Availability:</h6> <p> 6/25/2020-7/10/2020, 9:00am - 5:30pm</p>' +
+      '<h6>Bio Message:</h6> <p> I do evaluations of emotional damage deriving from personal injury, sexual or racial harassment and sexual abuse (including in psychotherapy) using objective psychological assessment devices.</p>' +
+      '</div>'+
+      '</div>';
+
+      var infowindow4 = new google.maps.InfoWindow({
+        content: contentString4
+      });
+
+
+
+      marker4.addListener('click', function() {
+        infowindow4.open(map, marker4);
+      });
+
+      var contentString5 = '<div id="content">'+
+          '<div id="siteNotice">'+
+          '</div>'+
+          '<h1 id="firstHeading" class="firstHeading">Rayna Lumbard: LMFT</h1>'+
+          '<div id="bodyContent">'+
+          '<h6>Type:</h6> <p> Licensed Clinical Psychologist</p>' +
+          '<h6>Availability:</h6> <p> 6/22/2020-7/5/2020, 11:00am - 7:30pm</p>' +
+          '<h6>Bio Message:</h6> <p> I provide the tools to raise your self=worth, your InnerSuccess, the foundation to accomplish your goals and dreams in your relationships, career, health and finances.</p>' +
+          '</div>'+
+          '</div>';
+
+          var infowindow5 = new google.maps.InfoWindow({
+            content: contentString5
+          });
+
+
+
+          marker5.addListener('click', function() {
+            infowindow5.open(map, marker5);
+          });
+
+
+
+}

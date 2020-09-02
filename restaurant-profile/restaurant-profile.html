@@ -3,65 +3,149 @@
   <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Restaurant Profile</title>
   <meta name="description" content="Restaurant-Profile">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/restaurant-profile.css">
 
 </head>
 
 <body>
-  <div class='container'>
-    <div class='row'>
-        <h1>test</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="../src/assets/960x0.jpg">
       </div>
+
+      <div class="col-sm-4">
+        <img src="../src/assets/dish3.png">
+      </div>
+
+      <div class="col-sm-4">
+        <img src="../src/assets/nonfeatured-traditional-mexican-foods.jpg">
+      </div>
+
+
+
     </div>
 
+  </div>
+<br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h1>Restaurant Name </h1>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-1">
+        <p>open</p>
+      </div>
+      <div class="col-sm-2">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+      </div>
+
+      <div class="col-sm-6">
+
+      </div>
+
+      <div class="col-sm-3">
+        <p>Phone: (415)-974-6112</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <p>Thai, Asian, Spicy</p>
+      </div>
+
+      <div class="col-sm-7">
+      </div>
+
+      <div class="col-sm-3">
+        <p>Website: restaurant.com</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <p>11:00 AM - 5:00 PM</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <p href="#" class="contactButtons">Link Button</p>
+      </div>
+
+      <div class="col-sm-2">
+        <p href="#" class="contactButtons">Link Button</p>
+      </div>
+
+      <div class="col-sm-2">
+        <p href="#" class="contactButtons">Link Button</p>
+      </div>
+    </div>
+  </div>
+<br><br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+
+        <!--The div element for the map -->
+        <div id="map" class="blackMapClass"></div>
+        -->
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjWfWoYtAhvc6i9C4V5SekngUKeyXOYoc
+        &callback=initMap">
+        </script>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="scrollable">
+            <h1> Comments </h1>
+            <li>Comment 1</li>
+            <li>Comment 1</li>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
   </body>
-
-<style>
-.scrollable {
-    height: 100px; /* or any value */
-    overflow-y: auto;
-}
-</style>
-
-<img src="../src/assets/960x0.jpg">
-<img src="../src/assets/dish3.png">
-<img src="../src/assets/nonfeatured-traditional-mexican-foods.jpg">
-<img src="../src/assets/Shakshuka-19-500x375.jpg">
-
 <script src="js/scripts.js"></script>
+<script src="js/google-map.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<div>
-    <h1>Restaurant Name</h1>
-</div>
-<div>
-    <h2>open</h2>
-</div>
-<div>
-    <label>Thai, Asian, Spicy</label>
-</div>
-
-<div>
-    <label>Phone: 415 974 6112</label>
-</div>
-
-<div>
-    <label>Website: restaurant.com</label>
-</div>
-
-<div class="scrollable">
-    <h1> Comments </h1>
-    <li>Comment 1</li>
-    <li>Comment 1</li>
-</div>
-
 
 </html>
+
+<p href="#" class="contactButtons">Link Button</p>
