@@ -1,12 +1,82 @@
 .main-view {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center;
-    align-items: center;
-    align-self: stretch; */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -12%;
-    margin-top: -7.5%;
+    /* display: flexbox;
+    flex-direction: 'column'; */
+    background-image: url('../../assets/background.png');
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #FD835C;
+    /* align-items: center;
+    justify-content: center; */
   }
+
+.logo {
+  background-image: url('../../assets/logo.png');
+  height: 7em;
+  width: 7em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+}
+
+.owner {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  margin: 15px;
+  background-image: url('../../assets/owner.png');
+  filter: drop-shadow(0px -8px 4px rgba(0, 0, 0, 0.25));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: white;
+
+}
+.foodie {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  margin: 15px;
+  background-image: url('../../assets/foodie.png');
+  filter: drop-shadow(0px -8px 4px rgba(0,0,0,0.25));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: white;
+
+}
+.owner-selected {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  margin: 15px;
+  background-image: url('../../assets/owner.png');
+  filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.25));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #FD835C;
+
+}
+.foodie-selected {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  margin: 15px;
+  background-image: url('../../assets/foodie.png');
+  filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.25));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #FD835C;
+
+}
+.title {
+  position: absolute;
+  bottom: -4em;
+  left: 17.5%;
+  font-size: 18px;;
+  font-weight: 750;
+}
