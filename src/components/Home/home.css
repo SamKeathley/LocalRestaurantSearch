@@ -80,3 +80,8 @@
   font-size: 18px;;
   font-weight: 750;
 }
+.arrow {
+  height: 5%;
+  width: 5%;
+  position: absolute;
+}

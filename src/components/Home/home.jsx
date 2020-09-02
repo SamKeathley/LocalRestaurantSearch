@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import {IconContext} from 'react-icons';
+import {BsArrowRight} from 'react-icons/bs';
 import styles from './home.css';
 import { Link } from 'react-router-dom';
 
@@ -20,7 +21,6 @@ const Home = () => {
         
     }
 
-
     return (
         
         <div className = 'main-view'
@@ -33,8 +33,8 @@ const Home = () => {
             flexDirection: 'column',
             padding: '15px'
         }}>
-            <h1>FIND A LOCAL RESTAURANT IN YOUR AREA</h1>
-            <h2>We are helping local businesses!</h2>  
+            <h2>FIND A LOCAL RESTAURANT IN YOUR AREA</h2>
+            <h3>We are helping local businesses!</h3>  
         </div>
         <div style = {{
             display: "flex",
@@ -49,6 +49,12 @@ const Home = () => {
             <p className='title'> Join us as a Foodie!</p>
         </div>
         </div>
+        <IconContext.Provider value={{ color: "orange", className: "arrow" }}>
+            <div>
+                <BsArrowRight />
+            </div>
+        </IconContext.Provider>
+        
         </div>
     );
 

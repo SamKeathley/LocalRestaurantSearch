@@ -8,8 +8,10 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+      {/* <Navbar /> */}
       <Route exact path="/" component={Home} />
       <Route exact path="/form" component={Form} />
+      
     </div>
   );
 }

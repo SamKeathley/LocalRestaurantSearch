@@ -9,15 +9,18 @@ const Ul = styled.ul`
     padding: 18px 10px;
   }
     flex-flow: column nowrap;
-    background-color: #FD835C;
+    background-color: #FED8B4;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: -15px;
+    top: -10px;
     right: 0;
-    height: 100vh;
-    width: 300px;
+    height: 90vh;
+    width: 380px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
+    border-top-left-radius: 2.5%;
+    border-bottom-left-radius: 2.5%;
+    margin-top: 10px;
     li {
       color: #fff;
       font-size: 20px;
