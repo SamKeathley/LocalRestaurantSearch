@@ -1,16 +1,23 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 import styles from './home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
     const [ownerSelected, setOwnerSelected] = useState(false);
     const [foodieSelected, setFoodieSelected] = useState(false);
+
     const ownerFunc = () => {
-        setOwnerSelected(!ownerSelected)
+        if (!foodieSelected) {
+            setOwnerSelected(!ownerSelected)
+        }
     }
     const foodieFunc = () => {
-        setFoodieSelected(!foodieSelected)
+        if (!ownerSelected) {
+            setFoodieSelected(!foodieSelected)
+        }
+        
     }
 
 

@@ -3,23 +3,14 @@ html, body, #root, .App {
   height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* * {
+  text-align: center;
+  background-color: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
+div {
+  background-image: url("./assets/background.png");
+  background-size: inherit;
+  background-repeat: no-repeat;
+} */
