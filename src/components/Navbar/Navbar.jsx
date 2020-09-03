@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
 import { Link } from 'react-router-dom';
+import NavBar, { FormControl } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 
 const Nav = styled.nav`
@@ -20,10 +22,28 @@ const logostyle = {
     left: "18px",
     top: "17px"
 }
+
+const searchStyleLeft = {
+    position: "absolute",
+    width: "376px",
+    height: "27px",
+    left: "401px",
+    top: "32px"
+}
+
+const searchStyleRight = {
+    position: "absolute",
+    width: "376px",
+    height: "27px",
+    left: "800px",
+    top: "32px"
+}
+
 const Navbar = () => {
     return (
         <Nav>
             <Link to="/"><img src={require("../../assets/logo.png")} alt="reStore" style={logostyle} /></Link>
+            <FormControl type="text" placeholder="Where" className="mr-sm-2" style={searchStyleLeft} /><FormControl type="text" placeholder="What" className="mr-sm-2" style={searchStyleRight} />
             <Burger />
         </Nav>
     );
