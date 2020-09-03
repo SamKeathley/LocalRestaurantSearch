@@ -4,15 +4,13 @@
     height: 791px;
     left: -4px;
     top: 109px;
-    background: #F3F3F3;
 }
 
 .image {
     position: absolute;
-    width: 769px;
-    height: 902.5px;
-    left: -75px;
-    top: 59px;
+    width: 369px;
+    height: 502.5px;
+    left: -5px;
 }
 
 .blurb {
@@ -20,40 +18,29 @@
     width: 477px;
     height: 280px;
     left: 692px;
-    top: 381px;
+    top: 151px;
 }
 
 h2 {
-    position: absolute;
+    position: relative;
     width: 492px;
     height: 37px;
-    left: 688px;
-    top: 271px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #FD835C;
 }
 
 h3 {
-    position: absolute;
+    position: relative;
     width: 360px;
     height: 47px;
-    left: 692px;
-    top: 309px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: #FD835C;
 }
 
 p{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 28px;
