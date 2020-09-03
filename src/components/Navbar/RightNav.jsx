@@ -36,7 +36,7 @@ const RightNav = ({ open }) => {
       <Link to="/form"><li>Join in as a restaurant owner</li></Link>
       <li>Saved</li>
       <li>Help</li>
-      <li>About us</li>
+      <Link to="/about"><li>About us</li></Link>
     </Ul>
   )
 }

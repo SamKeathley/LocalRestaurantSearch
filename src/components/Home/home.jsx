@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { IconContext } from 'react-icons';
 import { BsArrowRight } from 'react-icons/bs';
 import styles from './home.css';
@@ -54,7 +54,6 @@ const Home = () => {
                     <BsArrowRight />
                 </div>
             </IconContext.Provider>
-
         </div >
     );
 

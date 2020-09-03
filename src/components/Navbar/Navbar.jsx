@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
 import { Link } from 'react-router-dom';
-import NavBar, { FormControl } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+import { FormControl } from 'react-bootstrap';
 
 
 const Nav = styled.nav`
