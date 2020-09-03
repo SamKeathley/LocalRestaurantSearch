@@ -1,22 +1,23 @@
 .container {
     position: absolute;
     width: 1444px;
-    height: 791px;
+    height: 891px;
     left: -4px;
     top: 109px;
+    background: #F3F3F3;
 }
 
 .image {
     position: absolute;
     width: 369px;
-    height: 502.5px;
+    height: 402.5px;
     left: -5px;
 }
 
 .blurb {
     position: absolute;
-    width: 477px;
-    height: 280px;
+    width: 687px;
+    height: 687px;
     left: 692px;
     top: 151px;
 }
