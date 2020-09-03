@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
 import { Link } from 'react-router-dom';
@@ -12,10 +12,18 @@ const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
 `
+
+const logostyle = {
+    position: "absolute",
+    width: "60px",
+    height: "60px",
+    left: "18px",
+    top: "17px"
+}
 const Navbar = () => {
     return (
         <Nav>
-            <Link to="/"><img src="./assets/logo.png" alt="reStore" /></Link>
+            <Link to="/"><img src={require("../../assets/logo.png")} alt="reStore" style={logostyle} /></Link>
             <Burger />
         </Nav>
     );

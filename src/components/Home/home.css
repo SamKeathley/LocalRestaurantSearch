@@ -7,11 +7,13 @@
     background-repeat: no-repeat;
     background-position: center;
     color: #FD835C;
+    margin-top: 25px;
+
     /* align-items: center;
     justify-content: center; */
   }
 
-.logo {
+/* .logo {
   background-image: url('../../assets/logo.png');
   height: 7em;
   width: 7em;
@@ -19,7 +21,7 @@
   background-repeat: no-repeat;
   background-position: top center;
 
-}
+} */
 
 .owner {
   width: 15em;

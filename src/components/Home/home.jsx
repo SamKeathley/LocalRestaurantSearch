@@ -31,7 +31,7 @@ const Home = () => {
             <div style={{
                 display: "flex",
                 flexDirection: 'column',
-                padding: '15px'
+                padding: '25px'
             }}>
                 <h2>FIND A LOCAL RESTAURANT IN YOUR AREA</h2>
                 <h3>We are helping local businesses!</h3>
